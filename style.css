@@ -1,0 +1,98 @@
+body{
+    max-width: 800px;
+    background: color #fbedd7;;
+    font-family: 'Bitter', serif;
+    padding:0;
+    font-size: 14px;
+    line-height: 1;
+    white-space: nowrap;
+    color:black;
+    margin: 15px;
+}
+
+.BasicInfo{
+    float: left;
+    display: flex;
+    color: white;
+    margin:0;
+    max-width: 300px;
+    min-width: 300px;
+    background-color: #475169;
+    height: 1100px;
+
+}
+
+.BasicInfo_Container{
+    margin:30px auto;
+
+}
+
+.image{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border: 2px solid #fb9f85;
+    border-radius: 80%;
+    align-items: center;
+}
+
+table{
+    margin-top: -70px;
+}
+.ContactInfo{
+    font-weight: 500px;
+    line-height: 1.4;
+}
+
+progress{
+    width: 250px;
+    height: 20px
+}
+h1{
+    color:#d67e83;
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    align-items: center;
+}
+
+
+.PersonalInfo{
+    float: right;
+    display: flex;
+    margin:0px;
+    max-width: 500px;
+    min-width: 500px;
+    height: 1000px;
+    background-color: #ffffff;
+
+}
+.PersonalInfo_Container{
+    margin: 20px;
+}
+
+.info{
+    text-indent: 10%;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+th, td{
+    padding-right: 15px;
+    padding-bottom: 10px;
+    line-height: 0.8;
+}
+
+ol{
+    line-height: .1;
+}
+
+h2{
+    padding:10px;
+}
+

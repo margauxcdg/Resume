@@ -1,0 +1,119 @@
+
+body{
+    box-sizing: border-box;
+    background-color: #475169;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.container{
+    background-color: #f45b5b;
+    border: 10px;
+    box-shadow: 0 2px 9px;
+    position: relative;
+    width: 700px;
+}
+h1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-size: 12px;
+    margin-bottom: 1px;
+    color:black;
+}
+
+h4{
+    margin: 10px;
+}
+.form{
+    display: flex;
+}
+.left-section{
+    background-color: #f45b5b;
+    display: flex;
+    flex:1;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section{
+    display: flex;
+    flex: 1;
+    height: 450px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 25px;
+}
+.right-section-info{
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    margin:15px;
+}
+
+.left-section-info{
+    background-color: #f45b5b;
+    height: 50%;
+    width: 80%;
+}
+input, textarea{
+    border-bottom: 2px solid black;
+    border-top:none;
+    border-left: none;
+    border-right: none;;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+button[type="submit"]{
+    border-radius: 20px;
+    background-color: #84ddc6;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+}
+button[type="reset"]{
+    border-radius: 20px;
+    background-color: #ff686b;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+}
+  
+.fa-facebook{
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  color: white;
+  margin: 25px;
+}
+.fa-github{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    color: white;
+    margin: 0px;
+  }
+
+.fa-linkedin{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    color: white;
+    margin: 30px;
+}
+
+.fa-angle-left{
+  padding: 10px;
+  color: white;
+}
